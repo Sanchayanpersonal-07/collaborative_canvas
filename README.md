@@ -1,4 +1,3 @@
-```md
 # 🎨 Real-Time Collaborative Drawing Canvas
 
 A real-time multi-user drawing application built using **HTML5 Canvas**, **Node.js**, and **Socket.IO**.  
@@ -200,4 +199,3 @@ This is simple, fair, and deterministic.
 * No persistent storage
 * No database (focus is real-time synchronization)
 
----
