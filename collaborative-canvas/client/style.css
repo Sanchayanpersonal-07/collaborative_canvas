@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#toolbar {
+  background: #222;
+  padding: 8px;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+#canvas-container {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 50px);
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+#mainCanvas {
+  z-index: 1;
+}
+
+#previewCanvas {
+  z-index: 2;
+  pointer-events: all;
+}
+
+#users{
+  position: fixed;
+  right: 10px;
+  top: 60px;
+  background:#111;
+  color:#fff;
+  padding:8px;
+  border-radius:6px;
+  font-size:13px;
+}
+
+.cursor{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  pointer-events:none;
+}
