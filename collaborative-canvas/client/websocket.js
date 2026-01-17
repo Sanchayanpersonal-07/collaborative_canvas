@@ -1,4 +1,5 @@
-export const socket = io("http://localhost:3000");
+import { io } from "socket.io-client";
+export const socket = io(window.location.origin);
 
 export function joinRoom(roomId, name) {
   socket.emit("JOIN_ROOM", { roomId, name });
